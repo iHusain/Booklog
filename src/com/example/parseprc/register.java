@@ -34,7 +34,7 @@ public class register extends Activity{
 	        final EditText pwdconfField;
 	        final ProgressBar spinner;
 	        
-	        Parse.initialize(this, "gvDvrHAlecvnVOF8vXDmU18WyHPTTOvGdU3k1o0e", "uD10O3dhh117vAC8lXdfbylQOQMsG0WL9n0s0PhF");
+	        Parse.initialize(this, "xxxxxxxxxx", "xxxxxxxx");
 			
 	        
 	        Button reg = (Button) findViewById(R.id.button1);
