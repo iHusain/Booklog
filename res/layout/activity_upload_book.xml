@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="406dp" >
+
+        <ImageView
+            android:id="@+id/imageView_pic"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/uploadbook" />
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ETversion"
+            android:entries="@array/category"
+            android:prompt="@string/select" />
+
+        <Spinner
+            android:id="@+id/condition"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ETversion"
+            android:entries="@array/condition"
+            android:prompt="@string/select1" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/category"
+            android:layout_centerHorizontal="true" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/ETbookname"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView_pic"
+            android:layout_toRightOf="@+id/imageView_pic"
+            android:ems="10"
+            android:hint="Name of the Book" >
+   <requestFocus />
+   </EditText>
+        <EditText
+            android:id="@+id/ETauthor"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ETbookname"
+            android:layout_below="@+id/ETbookname"
+            android:ems="10"
+            android:hint="Authors Last Name" />
+
+        <EditText
+            android:id="@+id/ETversion"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:ems="10"
+            android:hint="Version" 
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/TVfree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageView_pic"
+            android:layout_alignTop="@+id/radioGroup1"
+            android:layout_marginTop="21dp"
+            android:text="Sell for free?" />
+
+        <EditText
+            android:id="@+id/ETdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ETprice"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textMultiLine" 
+            android:hint="Description of the book"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ETdesc"
+            android:layout_below="@+id/ETdesc"
+            android:text="Upload" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/ETdesc"
+            android:layout_below="@+id/ETdesc"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ETauthor"
+            android:text="Scan Barcode for ISBN" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ETprice"
+            android:layout_below="@+id/radioGroup1"
+            android:layout_marginTop="18dp"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/ETprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ETdesc"
+            android:layout_below="@+id/editText1"
+            android:ems="10"
+            android:hint="Price in $$"
+            android:inputType="number" />
+
+    </RelativeLayout>
+
+</ScrollView>

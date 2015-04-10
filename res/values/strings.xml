@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Booklog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_forgotpassword">Forgotpassword</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="sell">Sell</string>
+    <string name="title_activity_upload_book">UploadBook</string>
+    <string name="select">Category</string>
+    <string name="select1">Condition</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ranklabel">"Books Name : "</string>
+    <string name="countrylabel">"Authors Name : "</string>
+    <string name="populationlabel">"Email ID : "</string>
+
+    <string-array name="category">
+        <item>Accounts</item>
+        <item>Architechture</item>
+        <item>Arts</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Economics</item>
+        <item>Engineering</item>
+        <item>English</item>
+        <item>Geology</item>
+        <item>History</item>
+        <item>Languages</item>
+        <item>Management</item>
+        <item>Maths</item>
+        <item>Music</item>
+        <item>Nursing</item>
+        <item>Physics</item>
+    </string-array>
+    <string-array name="condition">
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_search">Search</string>
+
+</resources>

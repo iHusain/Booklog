@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto" >
+    
+<item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        android:showAsAction="ifRoom|withText"
+         />
+ 
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/search"
+        android:showAsAction="ifRoom|withText"
+         />
+ 
+    <item
+        android:id="@+id/user"
+        android:title="@string/profile"
+        android:icon="@drawable/user"
+        android:showAsAction="ifRoom|withText" />
+ 
+    <item
+        android:id="@+id/sell"
+        android:title="@string/sell"
+        android:icon="@drawable/book"
+        android:showAsAction="ifRoom|withText" />
+</menu>
