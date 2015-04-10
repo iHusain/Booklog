@@ -23,7 +23,7 @@ public class Forgotpassword extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_forgotpassword);
-		Parse.initialize(this, "gvDvrHAlecvnVOF8vXDmU18WyHPTTOvGdU3k1o0e", "uD10O3dhh117vAC8lXdfbylQOQMsG0WL9n0s0PhF");
+		Parse.initialize(this, "xxxxxxxxx", "xxxxxxxxxx");
 		
 		final EditText emailfield = (EditText) findViewById(R.id.editText1);
 		
