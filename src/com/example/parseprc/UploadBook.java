@@ -81,7 +81,7 @@ public class UploadBook extends Activity {
         
         //final ProgressBar spinner;
         //initializing Parse
-        Parse.initialize(this, "gvDvrHAlecvnVOF8vXDmU18WyHPTTOvGdU3k1o0e", "uD10O3dhh117vAC8lXdfbylQOQMsG0WL9n0s0PhF");
+        Parse.initialize(this, "xxxxxxx", "xxxxxxx");
 		
 		ETauthor = (EditText)findViewById(R.id.ETauthor);
 		ETbookname = (EditText)findViewById(R.id.ETbookname);
