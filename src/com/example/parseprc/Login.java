@@ -43,7 +43,7 @@ public class Login extends Activity {
 		//requestWindowFeature(Window.FEATURE_NO_TITLE);
 		
 		//Authorizing the APP with PARSE
-		Parse.initialize(this, "gvDvrHAlecvnVOF8vXDmU18WyHPTTOvGdU3k1o0e", "uD10O3dhh117vAC8lXdfbylQOQMsG0WL9n0s0PhF");
+		Parse.initialize(this, "xxxxxxxx", "xxxxxxx");
 		
 		
 		
