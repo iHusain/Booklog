@@ -71,7 +71,7 @@ public class UserProfile extends TabActivity {
 		ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4099FF")));
 		//ab.setDisplayShowTitleEnabled(false); 
 		ab.setDisplayShowHomeEnabled(false);
-		Parse.initialize(this, "gvDvrHAlecvnVOF8vXDmU18WyHPTTOvGdU3k1o0e", "uD10O3dhh117vAC8lXdfbylQOQMsG0WL9n0s0PhF");
+		Parse.initialize(this, "xxxxxxxxx", "xxxxxxxx");
 		
 		
 		
