@@ -19,7 +19,7 @@ public class Main_activity extends Activity {
 	        super.onCreate(savedInstanceState);
 	        requestWindowFeature(Window.FEATURE_NO_TITLE);
 	        
-	        Parse.initialize(this, "gvDvrHAlecvnVOF8vXDmU18WyHPTTOvGdU3k1o0e", "uD10O3dhh117vAC8lXdfbylQOQMsG0WL9n0s0PhF");
+	        Parse.initialize(this, "xxxxxxx", "xxxxxxxxx");
 	        ParseUser currentUser = ParseUser.getCurrentUser();
 	        if (currentUser != null) {
 	          // do stuff with the user
